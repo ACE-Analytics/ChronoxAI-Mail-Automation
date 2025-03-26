@@ -1,0 +1,39 @@
+{
+  "name": "chronoxai-mail-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "start:ts": "ts-node src/index.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ACE-Analytics/ChronoxAI-Mail-Automation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ACE-Analytics/ChronoxAI-Mail-Automation/issues"
+  },
+  "homepage": "https://github.com/ACE-Analytics/ChronoxAI-Mail-Automation#readme",
+  "dependencies": {
+    "@types/node": "^22.13.10",
+    "@types/node-schedule": "^2.1.7",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "google-auth-library": "^9.15.1",
+    "googleapis": "^146.0.0",
+    "node-schedule": "^2.1.1",
+    "typescript": "^5.8.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.18",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2"
+  }
+}
